@@ -1,4 +1,4 @@
-import Addedstudent from "./addedstudent.jsx"
+import Addedstudent from "./addedStudent.jsx"
 import { useState } from "react";
 import { useContext } from "react";
 import { Studentscontext } from "../App.jsx";
