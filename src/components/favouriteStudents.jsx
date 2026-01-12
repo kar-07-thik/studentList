@@ -29,7 +29,7 @@ function Favourite() {
 
                             favourite.map(function (item, index) {
                                 return (
-                                    <div className=" flex gap-10 border justify-between items-center" key={index}>
+                                    <div className=" flex gap-10  justify-between items-center" key={index}>
                                         <div className="flex gap-2 items-center p-2 ">
                                             <p className="font-bold md:text-2xl "> ⭐ {item.StudentName} - </p>
                                             <p className="font-bold md:text-2xl ">{item.StudentRoll}</p>
